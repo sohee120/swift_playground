@@ -44,10 +44,58 @@
             </objects>
             <point key="canvasLocation" x="434.78260869565219" y="101.78571428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
+        <scene sceneID="g6J-75-0Z4">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="H3r-2t-num" customClass="LoginViewController" customModule="_1Sidemenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JHj-IE-Hdp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="로그인화면" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOB-li-zpn">
+                                <rect key="frame" x="151" y="107" width="113" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="T2H-8E-fUv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="on8-jQ-lpI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="795"/>
+        </scene>
+        <!--Notice View Controller-->
+        <scene sceneID="EkD-HI-wu3">
+            <objects>
+                <viewController storyboardIdentifier="NoticeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sDj-xy-5gJ" customClass="NoticeViewController" customModule="_1Sidemenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uda-Uo-Uwe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="공지사항화면" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sf0-cH-yoK">
+                                <rect key="frame" x="140" y="109" width="135" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gYm-2C-fcs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O73-MP-bQJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1554" y="795"/>
+        </scene>
+        <!--Sidemenu View Controller-->
         <scene sceneID="7Dp-rB-3jI">
             <objects>
-                <viewController id="abc-4h-VI2" sceneMemberID="viewController">
+                <viewController id="abc-4h-VI2" customClass="SidemenuViewController" customModule="_1Sidemenu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RC0-gj-8fC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,6 +114,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="로그인화면">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onBtnLogin:" destination="abc-4h-VI2" eventType="touchUpInside" id="4Pz-HV-v7o"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbq-d2-Y8N">
                                 <rect key="frame" x="20" y="302" width="114" height="46"/>
@@ -74,6 +125,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="공지화면">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onBtnNotice:" destination="abc-4h-VI2" eventType="touchUpInside" id="UKA-PF-7OA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hEL-5a-Pxv"/>
@@ -85,10 +139,10 @@
             </objects>
             <point key="canvasLocation" x="1855.072463768116" y="101.78571428571428"/>
         </scene>
-        <!--Side Menu Navigation Controller-->
+        <!--My Side Menu Navigation Controller-->
         <scene sceneID="9BN-sj-RBJ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Mb-5A-o7U" customClass="SideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Mb-5A-o7U" customClass="MySideMenuNavigationController" customModule="_1Sidemenu" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="3Hy-uf-q9C"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="d1h-UC-mu2">
@@ -96,6 +150,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftSide" value="NO"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="abc-4h-VI2" kind="relationship" relationship="rootViewController" id="Cfz-iN-gRa"/>
                     </connections>
