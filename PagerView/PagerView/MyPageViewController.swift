@@ -66,5 +66,12 @@ class MyPageViewController: UIPageViewController, UIPageViewControllerDelegate, 
         super.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
     }
 
+    //page이동시 끝났을 때 호출. didFinishAnimaion
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        let currentTag = pageViewController.viewControllers!.first!.view.tag
+        print( currentTag )
+        
+        appDelegate.mainVC?.pageControl.currentPage = currentTag
+    }
 
 }

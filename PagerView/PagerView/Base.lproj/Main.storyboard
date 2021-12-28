@@ -43,6 +43,9 @@
                             <constraint firstItem="WtT-zX-g26" firstAttribute="centerX" secondItem="1TB-r1-xrq" secondAttribute="centerX" id="rL2-hQ-gQr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageControl" destination="WtT-zX-g26" id="Cg7-aX-NQv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,7 +70,7 @@
         <scene sceneID="cYb-mB-F8k">
             <objects>
                 <viewController storyboardIdentifier="secondVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rTa-f2-WqN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ffd-tr-2LJ">
+                    <view key="view" tag="1" contentMode="scaleToFill" id="Ffd-tr-2LJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="n0o-ck-VDQ"/>
@@ -82,7 +85,7 @@
         <scene sceneID="o82-G4-0bq">
             <objects>
                 <viewController storyboardIdentifier="thirdVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0Zd-dk-ePu" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9kq-ca-TIs">
+                    <view key="view" tag="2" contentMode="scaleToFill" id="9kq-ca-TIs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="JdC-PK-XLh"/>
@@ -100,6 +103,7 @@
                     <view key="view" contentMode="scaleToFill" id="F1d-Y3-qlr">
                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YfN-Tx-Ien"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
