@@ -42,7 +42,7 @@ class MyPageViewController: UIPageViewController, UIPageViewControllerDelegate, 
             return nil
         }
         let previousIndex = vcIndex - 1
-        guard previousIndex > 0 else {
+        guard previousIndex >= 0 else {
             return nil
         }
         return viewControllerList[previousIndex]
@@ -61,6 +61,10 @@ class MyPageViewController: UIPageViewController, UIPageViewControllerDelegate, 
         return viewControllerList[afterIndex]
     }
     
+    //코드로 초기화시 기본설정을 할 수 있음.
+    required init?(coder: NSCoder) {
+        super.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+    }
 
 
 }
