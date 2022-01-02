@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         super.viewDidLoad()
         
     }
-
+    
     @IBAction func onBtnGallery(_ sender: UIButton) {
         
         if (UIImagePickerController.isSourceTypeAvailable(.photoLibrary)) {
@@ -36,6 +36,25 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             print( "포토앨범에 접근할 수 없습니다.")
         }
     }
+    
+    //선택된 이미지를 받아오는 함수
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        let mediaType = info[UIImagePickerController.InfoKey.mediaType] as! String
+        
+        if mediaType.isEqual(UTType.image.identifier as NSString as String) {
+            if let editedImage = (info[UIImagePickerController.InfoKey.editedImage] as? UIImage) {
+                imageView.image = editedImage
+                captureImage = editedImage
+            } else if let originalImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+                imageView.image = originalImage
+                captureImage = originalImage
+            }
+            
+            //피커뷰 창을 닫아줌
+            self.dismiss(animated: true, completion: nil)
+        }
+    }
+    
     
 }
 
