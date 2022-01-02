@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C9364A3277D89B5002FC31C /* mussic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C9364A2277D89B5002FC31C /* mussic.mp3 */; };
-		0CD84886277C91F500729E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD84885277C91F500729E03 /* AppDelegate.swift */; };
-		0CD84888277C91F500729E03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD84887277C91F500729E03 /* SceneDelegate.swift */; };
-		0CD8488A277C91F500729E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD84889277C91F500729E03 /* ViewController.swift */; };
-		0CD8488D277C91F500729E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8488B277C91F500729E03 /* Main.storyboard */; };
-		0CD8488F277C91F600729E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8488E277C91F600729E03 /* Assets.xcassets */; };
-		0CD84892277C91F600729E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD84890277C91F600729E03 /* LaunchScreen.storyboard */; };
+		0C9364B1277E05C1002FC31C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9364B0277E05C1002FC31C /* AppDelegate.swift */; };
+		0C9364B3277E05C1002FC31C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9364B2277E05C1002FC31C /* SceneDelegate.swift */; };
+		0C9364B5277E05C1002FC31C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9364B4277E05C1002FC31C /* ViewController.swift */; };
+		0C9364B8277E05C1002FC31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9364B6277E05C1002FC31C /* Main.storyboard */; };
+		0C9364BA277E05C2002FC31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9364B9277E05C2002FC31C /* Assets.xcassets */; };
+		0C9364BD277E05C2002FC31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9364BB277E05C2002FC31C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C9364A2277D89B5002FC31C /* mussic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mussic.mp3; sourceTree = "<group>"; };
-		0CD84882277C91F500729E03 /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CD84885277C91F500729E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CD84887277C91F500729E03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CD84889277C91F500729E03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0CD8488C277C91F500729E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0CD8488E277C91F600729E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0CD84891277C91F600729E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0CD84893277C91F600729E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9364AD277E05C1002FC31C /* PhotoGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9364B0277E05C1002FC31C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C9364B2277E05C1002FC31C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0C9364B4277E05C1002FC31C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C9364B7277E05C1002FC31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C9364B9277E05C2002FC31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C9364BC277E05C2002FC31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C9364BE277E05C2002FC31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0CD8487F277C91F500729E03 /* Frameworks */ = {
+		0C9364AA277E05C1002FC31C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CD84879277C91F500729E03 = {
+		0C9364A4277E05C1002FC31C = {
 			isa = PBXGroup;
 			children = (
-				0CD84884277C91F500729E03 /* AudioPlayer */,
-				0CD84883277C91F500729E03 /* Products */,
+				0C9364AF277E05C1002FC31C /* PhotoGallery */,
+				0C9364AE277E05C1002FC31C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0CD84883277C91F500729E03 /* Products */ = {
+		0C9364AE277E05C1002FC31C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CD84882277C91F500729E03 /* AudioPlayer.app */,
+				0C9364AD277E05C1002FC31C /* PhotoGallery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CD84884277C91F500729E03 /* AudioPlayer */ = {
+		0C9364AF277E05C1002FC31C /* PhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
-				0CD84885277C91F500729E03 /* AppDelegate.swift */,
-				0CD84887277C91F500729E03 /* SceneDelegate.swift */,
-				0CD84889277C91F500729E03 /* ViewController.swift */,
-				0C9364A2277D89B5002FC31C /* mussic.mp3 */,
-				0CD8488B277C91F500729E03 /* Main.storyboard */,
-				0CD8488E277C91F600729E03 /* Assets.xcassets */,
-				0CD84890277C91F600729E03 /* LaunchScreen.storyboard */,
-				0CD84893277C91F600729E03 /* Info.plist */,
+				0C9364B0277E05C1002FC31C /* AppDelegate.swift */,
+				0C9364B2277E05C1002FC31C /* SceneDelegate.swift */,
+				0C9364B4277E05C1002FC31C /* ViewController.swift */,
+				0C9364B6277E05C1002FC31C /* Main.storyboard */,
+				0C9364B9277E05C2002FC31C /* Assets.xcassets */,
+				0C9364BB277E05C2002FC31C /* LaunchScreen.storyboard */,
+				0C9364BE277E05C2002FC31C /* Info.plist */,
 			);
-			path = AudioPlayer;
+			path = PhotoGallery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CD84881277C91F500729E03 /* AudioPlayer */ = {
+		0C9364AC277E05C1002FC31C /* PhotoGallery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CD84896277C91F600729E03 /* Build configuration list for PBXNativeTarget "AudioPlayer" */;
+			buildConfigurationList = 0C9364C1277E05C2002FC31C /* Build configuration list for PBXNativeTarget "PhotoGallery" */;
 			buildPhases = (
-				0CD8487E277C91F500729E03 /* Sources */,
-				0CD8487F277C91F500729E03 /* Frameworks */,
-				0CD84880277C91F500729E03 /* Resources */,
+				0C9364A9277E05C1002FC31C /* Sources */,
+				0C9364AA277E05C1002FC31C /* Frameworks */,
+				0C9364AB277E05C1002FC31C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AudioPlayer;
-			productName = AudioPlayer;
-			productReference = 0CD84882277C91F500729E03 /* AudioPlayer.app */;
+			name = PhotoGallery;
+			productName = PhotoGallery;
+			productReference = 0C9364AD277E05C1002FC31C /* PhotoGallery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0CD8487A277C91F500729E03 /* Project object */ = {
+		0C9364A5277E05C1002FC31C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					0CD84881277C91F500729E03 = {
+					0C9364AC277E05C1002FC31C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 0CD8487D277C91F500729E03 /* Build configuration list for PBXProject "AudioPlayer" */;
+			buildConfigurationList = 0C9364A8277E05C1002FC31C /* Build configuration list for PBXProject "PhotoGallery" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 0CD84879277C91F500729E03;
-			productRefGroup = 0CD84883277C91F500729E03 /* Products */;
+			mainGroup = 0C9364A4277E05C1002FC31C;
+			productRefGroup = 0C9364AE277E05C1002FC31C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CD84881277C91F500729E03 /* AudioPlayer */,
+				0C9364AC277E05C1002FC31C /* PhotoGallery */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CD84880277C91F500729E03 /* Resources */ = {
+		0C9364AB277E05C1002FC31C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C9364A3277D89B5002FC31C /* mussic.mp3 in Resources */,
-				0CD84892277C91F600729E03 /* LaunchScreen.storyboard in Resources */,
-				0CD8488F277C91F600729E03 /* Assets.xcassets in Resources */,
-				0CD8488D277C91F500729E03 /* Main.storyboard in Resources */,
+				0C9364BD277E05C2002FC31C /* LaunchScreen.storyboard in Resources */,
+				0C9364BA277E05C2002FC31C /* Assets.xcassets in Resources */,
+				0C9364B8277E05C1002FC31C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CD8487E277C91F500729E03 /* Sources */ = {
+		0C9364A9277E05C1002FC31C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD8488A277C91F500729E03 /* ViewController.swift in Sources */,
-				0CD84886277C91F500729E03 /* AppDelegate.swift in Sources */,
-				0CD84888277C91F500729E03 /* SceneDelegate.swift in Sources */,
+				0C9364B5277E05C1002FC31C /* ViewController.swift in Sources */,
+				0C9364B1277E05C1002FC31C /* AppDelegate.swift in Sources */,
+				0C9364B3277E05C1002FC31C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0CD8488B277C91F500729E03 /* Main.storyboard */ = {
+		0C9364B6277E05C1002FC31C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0CD8488C277C91F500729E03 /* Base */,
+				0C9364B7277E05C1002FC31C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0CD84890277C91F600729E03 /* LaunchScreen.storyboard */ = {
+		0C9364BB277E05C2002FC31C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0CD84891277C91F600729E03 /* Base */,
+				0C9364BC277E05C2002FC31C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0CD84894277C91F600729E03 /* Debug */ = {
+		0C9364BF277E05C2002FC31C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		0CD84895277C91F600729E03 /* Release */ = {
+		0C9364C0277E05C2002FC31C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,7 +282,7 @@
 			};
 			name = Release;
 		};
-		0CD84897277C91F600729E03 /* Debug */ = {
+		0C9364C2277E05C2002FC31C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -295,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y84Q82Q5S8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				INFOPLIST_FILE = PhotoGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sohee.AudioPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = sohee.PhotoGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		0CD84898277C91F600729E03 /* Release */ = {
+		0C9364C3277E05C2002FC31C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y84Q82Q5S8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				INFOPLIST_FILE = PhotoGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sohee.AudioPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = sohee.PhotoGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CD8487D277C91F500729E03 /* Build configuration list for PBXProject "AudioPlayer" */ = {
+		0C9364A8277E05C1002FC31C /* Build configuration list for PBXProject "PhotoGallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CD84894277C91F600729E03 /* Debug */,
-				0CD84895277C91F600729E03 /* Release */,
+				0C9364BF277E05C2002FC31C /* Debug */,
+				0C9364C0277E05C2002FC31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CD84896277C91F600729E03 /* Build configuration list for PBXNativeTarget "AudioPlayer" */ = {
+		0C9364C1277E05C2002FC31C /* Build configuration list for PBXNativeTarget "PhotoGallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CD84897277C91F600729E03 /* Debug */,
-				0CD84898277C91F600729E03 /* Release */,
+				0C9364C2277E05C2002FC31C /* Debug */,
+				0C9364C3277E05C2002FC31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0CD8487A277C91F500729E03 /* Project object */;
+	rootObject = 0C9364A5277E05C1002FC31C /* Project object */;
 }

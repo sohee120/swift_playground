@@ -58,6 +58,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Play">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onBtnPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sEs-aB-ALD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5t-aL-Syu">
                                 <rect key="frame" x="167" y="378" width="80" height="40"/>
@@ -66,6 +69,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Pause">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onBtnPause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aab-un-vPs"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Wa7-Xo-rzE">
                                 <rect key="frame" x="138" y="451" width="266" height="30"/>
@@ -78,6 +84,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Stop">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onBtnStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HoY-ZG-zPd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -89,6 +98,16 @@
                             <constraint firstItem="zXn-e8-c9Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="WpQ-iM-nQG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnPause" destination="S5t-aL-Syu" id="o2g-Uo-3oW"/>
+                        <outlet property="btnPlay" destination="nH3-EV-yDK" id="tmE-s9-6RR"/>
+                        <outlet property="btnStop" destination="hqx-OW-8Bz" id="UNB-IY-xcx"/>
+                        <outlet property="labelCurrentTime" destination="sNf-NC-ujw" id="Uez-Dg-zRb"/>
+                        <outlet property="labelEndTime" destination="btQ-xe-fpH" id="IJg-L4-VuF"/>
+                        <outlet property="progressView" destination="kVf-zO-Ng3" id="t3Q-GP-sBP"/>
+                        <outlet property="sliderSeek" destination="7Vx-Qs-SYu" id="rIn-DN-zwj"/>
+                        <outlet property="sliderVolume" destination="Wa7-Xo-rzE" id="KLS-L7-efI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
